@@ -33,6 +33,7 @@
         android:id="@+id/et_Pw"
         android:hint="비밀번호를 입력하세요"
         android:textSize="15dp"
+        android:inputType="textPassword"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="16dp"/>
 

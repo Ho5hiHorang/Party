@@ -17,7 +17,7 @@
 
     <Button
         android:layout_width="130dp"
-        android:layout_height="150dp"
+        android:layout_height="140dp"
         android:id="@+id/btn_message"
         android:background="@drawable/message"
         android:layout_gravity="center"

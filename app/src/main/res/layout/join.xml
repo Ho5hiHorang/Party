@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/loginText"
         android:layout_gravity="center"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:gravity="center"
         android:text="JOIN-US"
         android:textSize="25dp"/>
@@ -62,9 +62,10 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_PW"
+            android:id="@+id/et_pw"
             android:textSize="15dp"
             android:hint="사용할 비밀번호를 입력하세요"
+            android:inputType="textPassword"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="16dp"/>
     </LinearLayout>
@@ -154,15 +155,6 @@
         android:layout_height="50dp"
         android:id="@+id/btn_join"
         android:text="회원가입 하기"
-        android:backgroundTint="#fde9ce"
-        android:textSize="15dp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/btn_login"
-        android:text="로그인 하기"
         android:backgroundTint="#fde9ce"
         android:textSize="15dp"
         android:layout_marginBottom="16dp"/>
